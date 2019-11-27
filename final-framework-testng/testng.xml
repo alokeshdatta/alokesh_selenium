@@ -4,9 +4,9 @@
 <suite name = "Sample test Suite">
    <test name = "Sample test">
       <classes>
-         <class name = "com.training.assignment1stWeek.tests.UpdateProfileDetailsTest" />
-         <class name = "com.training.assignment1stWeek.tests.ChangePasswordTest" />
-         <class name = "com.training.assignment1stWeek.tests.LogoutTest" />
+         <class name = "com.training.assignment1.tests.UpdateProfileDetailsTest" />
+         <class name = "com.training.assignment1.tests.ChangePasswordTest" />
+         <class name = "com.training.assignment1.tests.LogoutTest" />
       </classes>
    </test>
 </suite>	
