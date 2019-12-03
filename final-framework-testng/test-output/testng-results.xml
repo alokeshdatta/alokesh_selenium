@@ -1,65 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample test Suite" duration-ms="94006" started-at="2019-11-27T09:26:38 CST" finished-at="2019-11-27T09:28:12 CST">
+  <suite name="Assignments" duration-ms="161751" started-at="2019-12-03T02:52:08 CST" finished-at="2019-12-03T02:54:50 CST">
     <groups>
     </groups>
-    <test name="Sample test" duration-ms="94006" started-at="2019-11-27T09:26:38 CST" finished-at="2019-11-27T09:28:12 CST">
+    <test name="Assignment1" duration-ms="69037" started-at="2019-12-03T02:52:08 CST" finished-at="2019-12-03T02:53:17 CST">
       <class name="com.training.assignment1.tests.LogoutTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.assignment1.tests.LogoutTest@6895a785]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2019-11-27T09:27:43 CST" finished-at="2019-11-27T09:27:43 CST">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.assignment1.tests.LogoutTest@4973813a]" name="setUpBeforeClass" is-config="true" duration-ms="2" started-at="2019-12-03T02:52:55 CST" finished-at="2019-12-03T02:52:55 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.assignment1.tests.LogoutTest@6895a785]" name="setUp" is-config="true" duration-ms="16556" started-at="2019-11-27T09:27:43 CST" finished-at="2019-11-27T09:28:00 CST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.assignment1.tests.LogoutTest@4973813a]" name="setUp" is-config="true" duration-ms="9919" started-at="2019-12-03T02:52:55 CST" finished-at="2019-12-03T02:53:05 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="logoutTest()[pri:0, instance:com.training.assignment1.tests.LogoutTest@6895a785]" name="logoutTest" duration-ms="11344" started-at="2019-11-27T09:28:00 CST" finished-at="2019-11-27T09:28:11 CST">
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:com.training.assignment1.tests.LogoutTest@4973813a]" name="logoutTest" duration-ms="9910" started-at="2019-12-03T02:53:05 CST" finished-at="2019-12-03T02:53:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.assignment1.tests.LogoutTest@6895a785]" name="tearDown" is-config="true" duration-ms="1001" started-at="2019-11-27T09:28:11 CST" finished-at="2019-11-27T09:28:12 CST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.assignment1.tests.LogoutTest@4973813a]" name="tearDown" is-config="true" duration-ms="1899" started-at="2019-12-03T02:53:15 CST" finished-at="2019-12-03T02:53:17 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.training.assignment1.tests.LogoutTest -->
       <class name="com.training.assignment1.tests.ChangePasswordTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.assignment1.tests.ChangePasswordTest@48503868]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2019-11-27T09:27:12 CST" finished-at="2019-11-27T09:27:12 CST">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.assignment1.tests.ChangePasswordTest@3a883ce7]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2019-12-03T02:52:31 CST" finished-at="2019-12-03T02:52:31 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.assignment1.tests.ChangePasswordTest@48503868]" name="setUp" is-config="true" duration-ms="17200" started-at="2019-11-27T09:27:12 CST" finished-at="2019-11-27T09:27:29 CST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.assignment1.tests.ChangePasswordTest@3a883ce7]" name="setUp" is-config="true" duration-ms="10655" started-at="2019-12-03T02:52:31 CST" finished-at="2019-12-03T02:52:42 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginAndChangePwdTest()[pri:0, instance:com.training.assignment1.tests.ChangePasswordTest@48503868]" name="loginAndChangePwdTest" duration-ms="12044" started-at="2019-11-27T09:27:29 CST" finished-at="2019-11-27T09:27:41 CST">
+        <test-method status="PASS" signature="loginAndChangePwdTest()[pri:0, instance:com.training.assignment1.tests.ChangePasswordTest@3a883ce7]" name="loginAndChangePwdTest" duration-ms="11596" started-at="2019-12-03T02:52:42 CST" finished-at="2019-12-03T02:52:54 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAndChangePwdTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.assignment1.tests.ChangePasswordTest@48503868]" name="tearDown" is-config="true" duration-ms="1998" started-at="2019-11-27T09:27:41 CST" finished-at="2019-11-27T09:27:43 CST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.assignment1.tests.ChangePasswordTest@3a883ce7]" name="tearDown" is-config="true" duration-ms="1863" started-at="2019-12-03T02:52:54 CST" finished-at="2019-12-03T02:52:55 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.training.assignment1.tests.ChangePasswordTest -->
       <class name="com.training.assignment1.tests.UpdateProfileDetailsTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.assignment1.tests.UpdateProfileDetailsTest@10bbd20a]" name="setUpBeforeClass" is-config="true" duration-ms="18" started-at="2019-11-27T09:26:38 CST" finished-at="2019-11-27T09:26:38 CST">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.assignment1.tests.UpdateProfileDetailsTest@cd2dae5]" name="setUpBeforeClass" is-config="true" duration-ms="8" started-at="2019-12-03T02:52:08 CST" finished-at="2019-12-03T02:52:08 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.assignment1.tests.UpdateProfileDetailsTest@10bbd20a]" name="setUp" is-config="true" duration-ms="18783" started-at="2019-11-27T09:26:38 CST" finished-at="2019-11-27T09:26:57 CST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.assignment1.tests.UpdateProfileDetailsTest@cd2dae5]" name="setUp" is-config="true" duration-ms="8956" started-at="2019-12-03T02:52:08 CST" finished-at="2019-12-03T02:52:17 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="profileDetailsTest()[pri:0, instance:com.training.assignment1.tests.UpdateProfileDetailsTest@10bbd20a]" name="profileDetailsTest" duration-ms="13051" started-at="2019-11-27T09:26:57 CST" finished-at="2019-11-27T09:27:10 CST">
+        <test-method status="PASS" signature="profileDetailsTest()[pri:0, instance:com.training.assignment1.tests.UpdateProfileDetailsTest@cd2dae5]" name="profileDetailsTest" duration-ms="12286" started-at="2019-12-03T02:52:17 CST" finished-at="2019-12-03T02:52:29 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- profileDetailsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.assignment1.tests.UpdateProfileDetailsTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="1947" started-at="2019-11-27T09:27:10 CST" finished-at="2019-11-27T09:27:12 CST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.assignment1.tests.UpdateProfileDetailsTest@cd2dae5]" name="tearDown" is-config="true" duration-ms="1906" started-at="2019-12-03T02:52:29 CST" finished-at="2019-12-03T02:52:31 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.training.assignment1.tests.UpdateProfileDetailsTest -->
-    </test> <!-- Sample test -->
-  </suite> <!-- Sample test Suite -->
+    </test> <!-- Assignment1 -->
+    <test name="Assignment2" duration-ms="92696" started-at="2019-12-03T02:53:17 CST" finished-at="2019-12-03T02:54:50 CST">
+      <class name="com.training.assignment2.tests.AddPropertyDetails_RETC_043">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.assignment2.tests.AddPropertyDetails_RETC_043@48503868]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2019-12-03T02:53:17 CST" finished-at="2019-12-03T02:53:17 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.assignment2.tests.AddPropertyDetails_RETC_043@48503868]" name="setUp" is-config="true" duration-ms="8194" started-at="2019-12-03T02:53:17 CST" finished-at="2019-12-03T02:53:25 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="profileDetailsTest()[pri:0, instance:com.training.assignment2.tests.AddPropertyDetails_RETC_043@48503868]" name="profileDetailsTest" duration-ms="19438" started-at="2019-12-03T02:53:25 CST" finished-at="2019-12-03T02:53:45 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profileDetailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.assignment2.tests.AddPropertyDetails_RETC_043@48503868]" name="tearDown" is-config="true" duration-ms="1850" started-at="2019-12-03T02:53:45 CST" finished-at="2019-12-03T02:53:47 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.assignment2.tests.AddPropertyDetails_RETC_043 -->
+      <class name="com.training.assignment2.tests.CreatePropertyDetailsByFeatures_Regions_RETC_46">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.assignment2.tests.CreatePropertyDetailsByFeatures_Regions_RETC_46@184f6be2]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2019-12-03T02:54:21 CST" finished-at="2019-12-03T02:54:21 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.assignment2.tests.CreatePropertyDetailsByFeatures_Regions_RETC_46@184f6be2]" name="setUp" is-config="true" duration-ms="7868" started-at="2019-12-03T02:54:21 CST" finished-at="2019-12-03T02:54:29 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="profileDetailsTest()[pri:0, instance:com.training.assignment2.tests.CreatePropertyDetailsByFeatures_Regions_RETC_46@184f6be2]" name="profileDetailsTest" duration-ms="19414" started-at="2019-12-03T02:54:29 CST" finished-at="2019-12-03T02:54:48 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profileDetailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.assignment2.tests.CreatePropertyDetailsByFeatures_Regions_RETC_46@184f6be2]" name="tearDown" is-config="true" duration-ms="1885" started-at="2019-12-03T02:54:48 CST" finished-at="2019-12-03T02:54:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.assignment2.tests.CreatePropertyDetailsByFeatures_Regions_RETC_46 -->
+      <class name="com.training.assignment2.tests.CreatePropertyDetails_RETC_44">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.assignment2.tests.CreatePropertyDetails_RETC_44@6895a785]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2019-12-03T02:53:47 CST" finished-at="2019-12-03T02:53:47 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.assignment2.tests.CreatePropertyDetails_RETC_44@6895a785]" name="setUp" is-config="true" duration-ms="9032" started-at="2019-12-03T02:53:47 CST" finished-at="2019-12-03T02:53:56 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="profileDetailsTest()[pri:0, instance:com.training.assignment2.tests.CreatePropertyDetails_RETC_44@6895a785]" name="profileDetailsTest" duration-ms="23146" started-at="2019-12-03T02:53:56 CST" finished-at="2019-12-03T02:54:19 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profileDetailsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.assignment2.tests.CreatePropertyDetails_RETC_44@6895a785]" name="tearDown" is-config="true" duration-ms="1856" started-at="2019-12-03T02:54:19 CST" finished-at="2019-12-03T02:54:21 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.assignment2.tests.CreatePropertyDetails_RETC_44 -->
+    </test> <!-- Assignment2 -->
+  </suite> <!-- Assignments -->
 </testng-results>

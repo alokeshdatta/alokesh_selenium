@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.training.assignment1.tests.UpdateProfileDetailsTest">
+      <class name="com.training.assignment1.tests.AddPropertyDetails_RETC_043">
         <methods>
-          <include name="tearDown"/>
           <include name="setUpBeforeClass"/>
-          <include name="setUp"/>
           <include name="profileDetailsTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.training.assignment1.tests.UpdateProfileDetailsTest -->
+      </class> <!-- com.training.assignment1.tests.AddPropertyDetails_RETC_043 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

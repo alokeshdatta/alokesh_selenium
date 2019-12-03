@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name = "Sample test Suite">
-   <test name = "Sample test">
+<suite name = "Assignments">
+   <test name = "Assignment1">
       <classes>
          <class name = "com.training.assignment1.tests.UpdateProfileDetailsTest" />
          <class name = "com.training.assignment1.tests.ChangePasswordTest" />
          <class name = "com.training.assignment1.tests.LogoutTest" />
       </classes>
    </test>
+   
+   <test name = "Assignment2">
+      <classes>
+         <class name = "com.training.assignment2.tests.AddPropertyDetails_RETC_043" />
+         <class name = "com.training.assignment2.tests.CreatePropertyDetails_RETC_44" />
+         <class name = "com.training.assignment2.tests.CreatePropertyDetailsByFeatures_Regions_RETC_46" />
+      </classes>
+   </test>
+   
 </suite>	
